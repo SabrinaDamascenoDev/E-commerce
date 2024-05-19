@@ -26,10 +26,10 @@ const styles = StyleSheet.create({
   },
 
   imageCard: {
-    backgroundColor:'yellow',
+    backgroundColor:'rgb(255, 215, 0)',
     borderRadius: 100,
-    width: 180,
-    height: 180,
+    width: 140,
+    height: 140,
   
   },
   textCard: {
