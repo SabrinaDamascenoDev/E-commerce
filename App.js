@@ -3,8 +3,8 @@ import { StyleSheet, Text, View, ScrollView, Image } from 'react-native';
 import { useFonts } from 'expo-font';
 import { Poppins_400Regular, Poppins_700Bold } from '@expo-google-fonts/poppins';
 //imports components
-import Header from './components/Header';
-import InputPesquisa from './components/InputPesquisa';
+import Header from './src/components/Header';
+import InputPesquisa from './src/components/InputPesquisa';
 
 export default function App() {
   const [fontsLoaded] = useFonts({
